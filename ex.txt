@@ -1,0 +1,73 @@
+// 123%10 --> 3
+
+// 123/10 --> 12
+
+// 3*10 + 2
+
+
+// n --> 123 (given)
+
+function reverse(n){         
+
+while(n>0){
+    var x = n%10;
+
+    var n = Math.floor(n/10);
+     val += x*10
+}
+console.log(val)
+}
+
+reverse(123)
+
+
+1 == 1  //true
+
+1 === 1 //true
+
+[] == []  //true
+
+[] === [] 
+
+{} == {}
+
+{} === {}
+
+
+
+
+function num (n){
+    return ()
+}
+
+map,filter,reduce
+
+
+let x = 10;
+
+function hello (callback){
+    callback(
+        callback(callback)
+    )
+    console.log("Hello")
+}
+
+function callback(){
+    console.log("callback")
+}
+
+hello(callback)
+
+middlewares -- redux thunks
+
+undefined
+
+var x = undefined;
+
+null 
+
+undeclared var x
+
+x = 10
+
+MVC -> 
